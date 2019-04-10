@@ -14,7 +14,7 @@ public class Calculator {
         for (int i = 0; i< size; i++) {
             numArray[i] = scanner.nextInt();
         }
+        //        Compute is constructor in lib.Compute class.
         Compute compute = new Compute(numArray);
-//        Compute is constructor in lib.Compute class.
     }
 }
